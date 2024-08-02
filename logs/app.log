@@ -1,0 +1,16 @@
+2024-08-01 20:12:33,693:INFO:Data loaded
+2024-08-01 20:12:33,694:INFO:Feature Engineering Completed
+2024-08-01 20:12:33,694:INFO:Dataset Splitted into test and train set
+2024-08-01 20:12:33,766:INFO:Linear Regression Train MAE: 88675.43111087685
+2024-08-01 20:12:33,773:INFO:Linear Regression Test MAE: 89564.6678188999
+2024-08-01 20:12:33,773:INFO:Training Completed for Linear Regression
+2024-08-01 20:12:33,773:INFO:"Decision Tree Train MAE: 63867.70809440019
+2024-08-01 20:12:33,773:INFO:"Decision Tree Test MAE: 69159.26555683035
+2024-08-01 20:12:33,773:INFO:Training Completed for Decision Tree model
+2024-08-01 20:12:56,858:INFO:"Random Forest Train MAE: 17247.363822259133
+2024-08-01 20:12:56,921:INFO:"Random Forest Test MAE: 48017.65449602121
+2024-08-01 20:12:56,921:INFO:Training Completed for Random Forest model
+2024-08-01 20:12:56,921:INFO:Saving Random Forest model
+2024-08-01 20:12:56,984:INFO:Loading Random Forest model
+2024-08-01 20:12:57,051:INFO:Making predictions
+2024-08-01 20:12:57,067:INFO:Prediction: [254337.75]
