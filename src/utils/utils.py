@@ -1,4 +1,6 @@
+import matplotlib.pyplot as plt
 import logging
+import os
 
 def setup_logging(log_file='logs/app.log'):
     logging.basicConfig(
@@ -8,3 +10,11 @@ def setup_logging(log_file='logs/app.log'):
     )
     logger = logging.getLogger()
     return logger
+
+def save_image(figure, filename, folder='storage'):
+    """Function to save a matplotlib figure as an image in the specified folder."""
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    filepath = os.path.join(folder, filename)
+    figure.savefig(filepath)
+    plt.close(figure)
